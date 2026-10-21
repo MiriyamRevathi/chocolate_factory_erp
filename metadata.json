@@ -1,0 +1,6 @@
+{
+  "name": "Chocolate Factory Management System",
+  "description": "Comprehensive local Chocolate Factory ERP and customer chocolate shop with role-based dashboards, production workflows, QC inspections, inventory control, and order tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "id": "ORD-2026-1001",
+    "orderDate": "2026-09-01 10:30",
+    "customer": {
+      "name": "Alice Morgan",
+      "email": "customer@chocofactory.com",
+      "phone": "+1 (555) 234-5678",
+      "address": "452 Maple Blossom Way, Suite 4B",
+      "city": "San Francisco",
+      "postalCode": "94107"
+    },
+    "items": [
+      { "productId": "PROD-101", "name": "Classic Milk Chocolate Bar", "price": 6.50, "quantity": 3, "subtotal": 19.50 },
+      { "productId": "PROD-106", "name": "Salted Caramel Ganache Truffles", "price": 14.50, "quantity": 1, "subtotal": 14.50 }
+    ],
+    "totalQuantity": 4,
+    "subtotal": 34.00,
+    "deliveryFee": 5.00,
+    "total": 39.00,
+    "paymentMethod": "Demo Card",
+    "paymentDetails": {
+      "cardholderName": "Alice Morgan",
+      "cardType": "Visa Demo",
+      "reference": "DEMO-PAY-88190"
+    },
+    "paymentStatus": "Paid",
+    "orderStatus": "Delivered",
+    "timeline": [
+      { "status": "Placed", "time": "2026-09-01 10:30", "note": "Order placed online via Customer Shop" },
+      { "status": "Confirmed", "time": "2026-09-01 10:45", "note": "Inventory verified in Climate Vault WH-D" },
+      { "status": "Processing", "time": "2026-09-01 12:00", "note": "Allocated to packing queue" },
+      { "status": "Packed", "time": "2026-09-01 15:20", "note": "Insulated ice-pack gift wrap applied" },
+      { "status": "Shipped", "time": "2026-09-02 08:30", "note": "Dispatched via EcoCold Courier #EXP-4401" },
+      { "status": "Delivered", "time": "2026-09-03 14:15", "note": "Delivered to recipient with signature" }
+    ]
+  },
+  {
+    "id": "ORD-2026-1002",
+    "orderDate": "2026-09-02 14:10",
+    "customer": {
+      "name": "Alice Morgan",
+      "email": "customer@chocofactory.com",
+      "phone": "+1 (555) 234-5678",
+      "address": "452 Maple Blossom Way, Suite 4B",
+      "city": "San Francisco",
+      "postalCode": "94107"
+    },
+    "items": [
+      { "productId": "PROD-109", "name": "Master Chocolatier Gift Box (16 pcs)", "price": 32.00, "quantity": 1, "subtotal": 32.00 },
+      { "productId": "PROD-102", "name": "Artisanal Dark Cocoa 70%", "price": 7.50, "quantity": 2, "subtotal": 15.00 }
+    ],
+    "totalQuantity": 3,
+    "subtotal": 47.00,
+    "deliveryFee": 5.00,
+    "total": 52.00,
+    "paymentMethod": "Demo Card",
+    "paymentDetails": {
+      "cardholderName": "Alice Morgan",
+      "cardType": "Mastercard Demo",
+      "reference": "DEMO-PAY-91044"
+    },
+    "paymentStatus": "Paid",
+    "orderStatus": "Shipped",
+    "timeline": [
+      { "status": "Placed", "time": "2026-09-02 14:10", "note": "Order placed online" },
+      { "status": "Confirmed", "time": "2026-09-02 14:30", "note": "Payment verified" },
+      { "status": "Processing", "time": "2026-09-02 16:00", "note": "Order picked from Finished Goods" },
+      { "status": "Packed", "time": "2026-09-03 09:00", "note": "Packaged in luxury gold ribbon gift box" },
+      { "status": "Shipped", "time": "2026-09-03 17:00", "note": "In transit with tracking #TRK-9921" }
+    ]
+  },
+  {
+    "id": "ORD-2026-1003",
+    "orderDate": "2026-09-03 18:40",
+    "customer": {
+      "name": "David Sterling",
+      "email": "david.sterling@luxuryhotel.com",
+      "phone": "+1 (555) 789-0123",
+      "address": "12 Grand Promenade Ave",
+      "city": "San Jose",
+      "postalCode": "95113"
+    },
+    "items": [
+      { "productId": "PROD-103", "name": "Roasted Hazelnut Crunch", "price": 8.00, "quantity": 5, "subtotal": 40.00 },
+      { "productId": "PROD-108", "name": "Piedmont Gianduja Praline", "price": 12.00, "quantity": 4, "subtotal": 48.00 }
+    ],
+    "totalQuantity": 9,
+    "subtotal": 88.00,
+    "deliveryFee": 0.00,
+    "total": 88.00,
+    "paymentMethod": "Cash on Delivery",
+    "paymentDetails": {
+      "cardholderName": "David Sterling",
+      "cardType": "COD",
+      "reference": "COD-ORDER-1003"
+    },
+    "paymentStatus": "Pending",
+    "orderStatus": "Processing",
+    "timeline": [
+      { "status": "Placed", "time": "2026-09-03 18:40", "note": "Hotel mini-bar order received" },
+      { "status": "Confirmed", "time": "2026-09-03 19:00", "note": "Confirmed by factory sales manager" },
+      { "status": "Processing", "time": "2026-09-04 08:00", "note": "Being assembled in packaging line" }
+    ]
+  },
+  {
+    "id": "ORD-2026-1004",
+    "orderDate": "2026-09-04 09:15",
+    "customer": {
+      "name": "Alice Morgan",
+      "email": "customer@chocofactory.com",
+      "phone": "+1 (555) 234-5678",
+      "address": "452 Maple Blossom Way, Suite 4B",
+      "city": "San Francisco",
+      "postalCode": "94107"
+    },
+    "items": [
+      { "productId": "PROD-107", "name": "Velvet Raspberry Dark Truffles", "price": 15.00, "quantity": 2, "subtotal": 30.00 }
+    ],
+    "totalQuantity": 2,
+    "subtotal": 30.00,
+    "deliveryFee": 5.00,
+    "total": 35.00,
+    "paymentMethod": "Demo Card",
+    "paymentDetails": {
+      "cardholderName": "Alice Morgan",
+      "cardType": "Visa Demo",
+      "reference": "DEMO-PAY-99512"
+    },
+    "paymentStatus": "Paid",
+    "orderStatus": "Confirmed",
+    "timeline": [
+      { "status": "Placed", "time": "2026-09-04 09:15", "note": "Order placed successfully" },
+      { "status": "Confirmed", "time": "2026-09-04 09:20", "note": "Stock reserved in Finished Goods" }
+    ]
+  }
+]

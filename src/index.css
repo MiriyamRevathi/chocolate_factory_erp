@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --color-pink-canvas: #F9E4E8;
+    --color-espresso: #3D2B1F;
+    --color-espresso-hover: #4E3829;
+    --color-gold: #D9A05B;
+    --color-cream: #FCF9F2;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F9E4E8;
+    color: #2D1E16;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, .font-serif-title {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom Artistic Flair Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F9E4E8;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9A05B;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b58043;
+}
+
+/* Artistic Flair Cards & Containers */
+.choco-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(217, 160, 91, 0.16);
+  border-radius: 1.5rem; /* rounded-3xl */
+  box-shadow: 0 4px 20px -2px rgba(61, 43, 31, 0.05);
+}
+
+.choco-card-cream {
+  background: #FCF9F2;
+  border: 1px solid rgba(217, 160, 91, 0.2);
+  border-radius: 1.5rem;
+}
+
+.choco-card-pink {
+  background: #FFF0F3;
+  border: 1px solid rgba(217, 160, 91, 0.2);
+  border-radius: 1.5rem;
+}
+
+.choco-card-dark {
+  background: #3D2B1F;
+  border: 1px solid rgba(217, 160, 91, 0.2);
+  border-radius: 1.5rem;
+  color: #FCF9F2;
+  box-shadow: 0 10px 25px -4px rgba(61, 43, 31, 0.25);
+}
+
+.choco-card-gold {
+  background: #D9A05B;
+  border-radius: 1.5rem;
+  color: #FFFFFF;
+  box-shadow: 0 8px 20px -4px rgba(217, 160, 91, 0.35);
+}
+
+.choco-gradient-bar {
+  background: linear-gradient(135deg, #3D2B1F 0%, #4E3829 100%);
+}
+
+.caramel-gradient {
+  background: linear-gradient(135deg, #D9A05B 0%, #B87E39 100%);
+}
+

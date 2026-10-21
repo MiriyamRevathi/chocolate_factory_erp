@@ -1,0 +1,71 @@
+{
+  "warehouses": [
+    {
+      "id": "WH-A",
+      "name": "Cocoa & Bulk Silo Bay",
+      "temperature": "18°C",
+      "humidity": "50%",
+      "manager": "Silvia Ramos",
+      "capacityUsed": "74%"
+    },
+    {
+      "id": "WH-B",
+      "name": "Cold Storage & Dairy Vault",
+      "temperature": "14°C",
+      "humidity": "45%",
+      "manager": "Silvia Ramos",
+      "capacityUsed": "62%"
+    },
+    {
+      "id": "WH-C",
+      "name": "Packaging & Box Store",
+      "temperature": "21°C",
+      "humidity": "40%",
+      "manager": "Silvia Ramos",
+      "capacityUsed": "55%"
+    },
+    {
+      "id": "WH-D",
+      "name": "Finished Goods Climate Vault",
+      "temperature": "16°C",
+      "humidity": "48%",
+      "manager": "Silvia Ramos",
+      "capacityUsed": "68%"
+    }
+  ],
+  "restockRequests": [
+    {
+      "id": "RST-0901",
+      "materialId": "MAT-010",
+      "materialName": "Raw Organic Cashews",
+      "quantity": 300,
+      "unit": "kg",
+      "supplier": "Kerala Harvests",
+      "requestedDate": "2026-09-02",
+      "status": "Ordered",
+      "urgency": "High"
+    },
+    {
+      "id": "RST-0902",
+      "materialId": "MAT-002",
+      "materialName": "Criollo Fermented Cocoa Beans",
+      "quantity": 500,
+      "unit": "kg",
+      "supplier": "Valley Gold Organics",
+      "requestedDate": "2026-09-03",
+      "status": "Pending Approval",
+      "urgency": "Medium"
+    },
+    {
+      "id": "RST-0903",
+      "materialId": "MAT-013",
+      "materialName": "Eco Kraft Chocolate Bar Boxes",
+      "quantity": 5000,
+      "unit": "units",
+      "supplier": "GreenPack Solutions",
+      "requestedDate": "2026-09-04",
+      "status": "Pending Approval",
+      "urgency": "Medium"
+    }
+  ]
+}

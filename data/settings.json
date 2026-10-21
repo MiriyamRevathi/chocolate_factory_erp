@@ -1,0 +1,17 @@
+{
+  "factoryName": "Maison Artisanal Chocolate Mills",
+  "facilityCode": "FAC-CA-802",
+  "currency": "$",
+  "currencyCode": "USD",
+  "standardShippingFee": 5.00,
+  "freeShippingThreshold": 50.00,
+  "qcMaxMoisturePercent": 1.2,
+  "temperingTargetTempC": 18.5,
+  "conchingDurationHours": 24,
+  "defaultTaxRate": 0.08,
+  "address": "740 Cocoa Mill Way, Suite 100, Vallejo, CA 94590",
+  "supportEmail": "contact@artisanalchocofactory.com",
+  "supportPhone": "+1 (555) 100-2462",
+  "autoReserveStock": true,
+  "operatingMode": "Full Factory Production & Customer Direct E-Commerce"
+}

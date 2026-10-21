@@ -1,0 +1,42 @@
+[
+  {
+    "id": "QC-2026-001",
+    "batchId": "CH-BATCH-001",
+    "productName": "Classic Milk Chocolate Bar",
+    "inspector": "Dr. Marcus Vance",
+    "date": "2026-09-03",
+    "status": "Approved",
+    "overallResult": "Pass",
+    "rejectionReason": null,
+    "tests": {
+      "appearance": { "status": "Pass", "value": "Glossy mirror sheen, uniform color", "notes": "No fat bloom or marbling detected" },
+      "texture": { "status": "Pass", "value": "Clean crisp snap at 20C, silky mouthfeel", "notes": "Fineness tested < 18 microns" },
+      "weight": { "status": "Pass", "value": "100.4g (Target: 100g ± 2g)", "notes": "Within standard deviation tolerance" },
+      "temperature": { "status": "Pass", "value": "18.8C tempering discharge", "notes": "Proper crystallization Form V achieved" },
+      "moisture": { "status": "Pass", "value": "0.85% (Max 1.2%)", "notes": "Compliant with shelf life requirements" },
+      "packaging": { "status": "Pass", "value": "Airtight foil seal, clean outer box", "notes": "Lot code and expiry date printed legibly" },
+      "taste": { "status": "Pass", "value": "Rich dairy cream notes, balanced sweetness", "notes": "Sensory panel unanimously scored 9.4/10" }
+    },
+    "notes": "Premium production quality. Batch cleared for distribution to Finished Goods."
+  },
+  {
+    "id": "QC-2026-002",
+    "batchId": "CH-BATCH-002",
+    "productName": "Artisanal Dark Cocoa 70%",
+    "inspector": "Dr. Marcus Vance",
+    "date": "2026-09-04",
+    "status": "Rejected",
+    "overallResult": "Fail",
+    "rejectionReason": "Texture issue",
+    "tests": {
+      "appearance": { "status": "Pass", "value": "Deep mahogany gloss", "notes": "Surface aesthetics pass standard" },
+      "texture": { "status": "Fail", "value": "Gritty particle size ~ 38 microns", "notes": "Failed fineness threshold (< 20 microns)" },
+      "weight": { "status": "Pass", "value": "89.8g (Target: 90g ± 2g)", "notes": "Weight is compliant" },
+      "temperature": { "status": "Fail", "value": "Overheated to 34.5C during second tempering cycle", "notes": "Polymorphic destabilization" },
+      "moisture": { "status": "Pass", "value": "0.72%", "notes": "Low moisture acceptable" },
+      "packaging": { "status": "Pass", "value": "Foil wrapped correctly", "notes": "Packaging intact" },
+      "taste": { "status": "Fail", "value": "Slight astringency and sandy residue on palate", "notes": "Does not meet brand artisanal standard" }
+    },
+    "notes": "Severe micro-granulation due to tempering malfunction. Batch flagged for rework or melting scrap."
+  }
+]

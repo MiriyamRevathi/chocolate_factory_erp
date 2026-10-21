@@ -1,0 +1,68 @@
+[
+  {
+    "id": "EMP-001",
+    "name": "Henrietta Dupont",
+    "department": "Executive Management",
+    "role": "Admin",
+    "email": "admin@chocofactory.com",
+    "phone": "+1 (555) 100-2001",
+    "joiningDate": "2020-03-15",
+    "status": "Active",
+    "password": "admin"
+  },
+  {
+    "id": "EMP-002",
+    "name": "Elena Rostova",
+    "department": "Production & Processing",
+    "role": "Production Manager",
+    "email": "production@chocofactory.com",
+    "phone": "+1 (555) 100-2002",
+    "joiningDate": "2021-06-01",
+    "status": "Active",
+    "password": "production"
+  },
+  {
+    "id": "EMP-003",
+    "name": "Dr. Marcus Vance",
+    "department": "Quality Control & Compliance",
+    "role": "QC Manager",
+    "email": "qc@chocofactory.com",
+    "phone": "+1 (555) 100-2003",
+    "joiningDate": "2022-01-10",
+    "status": "Active",
+    "password": "qc"
+  },
+  {
+    "id": "EMP-004",
+    "name": "Silvia Ramos",
+    "department": "Supply Chain & Warehousing",
+    "role": "Inventory Manager",
+    "email": "inventory@chocofactory.com",
+    "phone": "+1 (555) 100-2004",
+    "joiningDate": "2021-11-20",
+    "status": "Active",
+    "password": "inventory"
+  },
+  {
+    "id": "EMP-005",
+    "name": "Jean-Luc Moreau",
+    "department": "Production & Processing",
+    "role": "Production Technician",
+    "email": "jeanluc@chocofactory.com",
+    "phone": "+1 (555) 100-2005",
+    "joiningDate": "2023-04-12",
+    "status": "Active",
+    "password": "pass"
+  },
+  {
+    "id": "EMP-006",
+    "name": "Sophie Chen",
+    "department": "Quality Control & Compliance",
+    "role": "Sensory Analyst",
+    "email": "sophie.c@chocofactory.com",
+    "phone": "+1 (555) 100-2006",
+    "joiningDate": "2023-08-01",
+    "status": "Active",
+    "password": "pass"
+  }
+]

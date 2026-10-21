@@ -1,0 +1,86 @@
+[
+  {
+    "id": "SUP-01",
+    "companyName": "Andes Cocoa Co-operative",
+    "contactPerson": "Mateo Delgado",
+    "phone": "+593 2 299 1800",
+    "email": "orders@andescocoa.org",
+    "address": "Calle de los Molinos 42, Quito, Ecuador",
+    "materialsSupplied": ["Raw Cocoa Beans (Ecuador)", "Raw Cocoa Nibs"],
+    "status": "Active",
+    "leadTimeDays": 14,
+    "rating": 4.9
+  },
+  {
+    "id": "SUP-02",
+    "companyName": "Valley Gold Organics",
+    "contactPerson": "Beatriz Solano",
+    "phone": "+506 2200 4488",
+    "email": "sales@valleygold.cr",
+    "address": "Valle Central km 18, San Jose, Costa Rica",
+    "materialsSupplied": ["Criollo Fermented Cocoa Beans"],
+    "status": "Preferred",
+    "leadTimeDays": 21,
+    "rating": 4.8
+  },
+  {
+    "id": "SUP-03",
+    "companyName": "EuroCocoa Processors",
+    "contactPerson": "Dirk van Houten",
+    "phone": "+31 20 555 3110",
+    "email": "supply@eurococoa.nl",
+    "address": "Havenweg 84, Amsterdam Port, Netherlands",
+    "materialsSupplied": ["Natural Dutch Cocoa Powder", "Deodorized Cocoa Butter"],
+    "status": "Active",
+    "leadTimeDays": 7,
+    "rating": 4.7
+  },
+  {
+    "id": "SUP-04",
+    "companyName": "Alpine Dairy Federation",
+    "contactPerson": "Lucia Meier",
+    "phone": "+41 31 880 2000",
+    "email": "contracts@alpinedairy.ch",
+    "address": "Milchstrasse 14, Bern, Switzerland",
+    "materialsSupplied": ["Whole Alpine Milk Powder", "Sweet Cream Powder"],
+    "status": "Preferred",
+    "leadTimeDays": 5,
+    "rating": 5.0
+  },
+  {
+    "id": "SUP-05",
+    "companyName": "Piedmont Nut Groves",
+    "contactPerson": "Gianni Ferrero",
+    "phone": "+39 0173 440100",
+    "email": "export@piedmontnuts.it",
+    "address": "Via Nocciola 9, Alba (CN), Italy",
+    "materialsSupplied": ["Roasted Piedmont Hazelnuts", "Hazelnut Gianduja Paste"],
+    "status": "Active",
+    "leadTimeDays": 10,
+    "rating": 4.9
+  },
+  {
+    "id": "SUP-06",
+    "companyName": "Prestige Foils & Print",
+    "contactPerson": "Clara Sterling",
+    "phone": "+1 (555) 774-8800",
+    "email": "sales@prestigefoils.com",
+    "address": "88 Industrial Parkway, Chicago, IL",
+    "materialsSupplied": ["Gold Embossed Foil Wrappers", "Deluxe 16-Piece Truffle Boxes"],
+    "status": "Active",
+    "leadTimeDays": 8,
+    "rating": 4.6
+  },
+  {
+    "id": "SUP-07",
+    "companyName": "GreenPack Solutions",
+    "contactPerson": "Nathan Ross",
+    "phone": "+1 (555) 612-4490",
+    "email": "hello@greenpack.eco",
+    "address": "304 Eco Boulevard, Portland, OR",
+    "materialsSupplied": ["Eco Kraft Chocolate Bar Boxes"],
+    "status": "Under Review",
+    "leadTimeDays": 6,
+    "rating": 4.3
+  }
+]

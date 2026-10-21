@@ -1,0 +1,115 @@
+[
+  {
+    "id": "CH-BATCH-001",
+    "productId": "PROD-101",
+    "productName": "Classic Milk Chocolate Bar",
+    "plannedQuantity": 500,
+    "producedQuantity": 496,
+    "startDate": "2026-09-01",
+    "expectedCompletion": "2026-09-03",
+    "currentStage": "Packaging",
+    "manager": "Elena Rostova",
+    "status": "Approved",
+    "notes": "Optimal tempering curve achieved. Silky finish and clean snap.",
+    "recipe": [
+      { "materialId": "MAT-001", "name": "Raw Cocoa Beans (Ecuador)", "amount": 190, "unit": "kg" },
+      { "materialId": "MAT-004", "name": "Deodorized Cocoa Butter", "amount": 60, "unit": "kg" },
+      { "materialId": "MAT-005", "name": "Fine Caster Cane Sugar", "amount": 160, "unit": "kg" },
+      { "materialId": "MAT-006", "name": "Whole Alpine Milk Powder", "amount": 90, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "CH-BATCH-002",
+    "productId": "PROD-102",
+    "productName": "Artisanal Dark Cocoa 70%",
+    "plannedQuantity": 400,
+    "producedQuantity": 388,
+    "startDate": "2026-09-02",
+    "expectedCompletion": "2026-09-04",
+    "currentStage": "Tempering",
+    "manager": "Elena Rostova",
+    "status": "Rejected",
+    "notes": "Temperature spike during conching created sandy micro-crystallization texture.",
+    "recipe": [
+      { "materialId": "MAT-002", "name": "Criollo Fermented Cocoa Beans", "amount": 280, "unit": "kg" },
+      { "materialId": "MAT-004", "name": "Deodorized Cocoa Butter", "amount": 40, "unit": "kg" },
+      { "materialId": "MAT-005", "name": "Fine Caster Cane Sugar", "amount": 80, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "CH-BATCH-003",
+    "productId": "PROD-103",
+    "productName": "Roasted Hazelnut Crunch",
+    "plannedQuantity": 350,
+    "producedQuantity": 350,
+    "startDate": "2026-09-03",
+    "expectedCompletion": "2026-09-05",
+    "currentStage": "Packaging",
+    "manager": "Elena Rostova",
+    "status": "Sent to QC",
+    "notes": "Awaiting final sensory and seal integrity testing before warehousing.",
+    "recipe": [
+      { "materialId": "MAT-001", "name": "Raw Cocoa Beans (Ecuador)", "amount": 120, "unit": "kg" },
+      { "materialId": "MAT-008", "name": "Roasted Piedmont Hazelnuts", "amount": 80, "unit": "kg" },
+      { "materialId": "MAT-005", "name": "Fine Caster Cane Sugar", "amount": 100, "unit": "kg" },
+      { "materialId": "MAT-006", "name": "Whole Alpine Milk Powder", "amount": 50, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "CH-BATCH-004",
+    "productId": "PROD-106",
+    "productName": "Salted Caramel Ganache Truffles",
+    "plannedQuantity": 300,
+    "producedQuantity": 0,
+    "startDate": "2026-09-04",
+    "expectedCompletion": "2026-09-06",
+    "currentStage": "Conching",
+    "manager": "Elena Rostova",
+    "status": "In Production",
+    "notes": "Conching at 55C. Caramel ganache core prepared in cooling vessel B.",
+    "recipe": [
+      { "materialId": "MAT-003", "name": "Natural Dutch Cocoa Powder", "amount": 80, "unit": "kg" },
+      { "materialId": "MAT-004", "name": "Deodorized Cocoa Butter", "amount": 60, "unit": "kg" },
+      { "materialId": "MAT-011", "name": "Salted Liquid Butter Caramel", "amount": 100, "unit": "kg" },
+      { "materialId": "MAT-005", "name": "Fine Caster Cane Sugar", "amount": 60, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "CH-BATCH-005",
+    "productId": "PROD-104",
+    "productName": "Toasted Almond Delight",
+    "plannedQuantity": 250,
+    "producedQuantity": 0,
+    "startDate": "2026-09-04",
+    "expectedCompletion": "2026-09-07",
+    "currentStage": "Cocoa Preparation",
+    "manager": "Elena Rostova",
+    "status": "Planned",
+    "notes": "Almonds scheduled for dry roasting in Kiln 2.",
+    "recipe": [
+      { "materialId": "MAT-001", "name": "Raw Cocoa Beans (Ecuador)", "amount": 100, "unit": "kg" },
+      { "materialId": "MAT-009", "name": "Blanched California Almonds", "amount": 50, "unit": "kg" },
+      { "materialId": "MAT-005", "name": "Fine Caster Cane Sugar", "amount": 70, "unit": "kg" },
+      { "materialId": "MAT-004", "name": "Deodorized Cocoa Butter", "amount": 30, "unit": "kg" }
+    ]
+  },
+  {
+    "id": "CH-BATCH-006",
+    "productId": "PROD-108",
+    "productName": "Piedmont Gianduja Praline",
+    "plannedQuantity": 200,
+    "producedQuantity": 200,
+    "startDate": "2026-09-03",
+    "expectedCompletion": "2026-09-04",
+    "currentStage": "Packaging",
+    "manager": "Elena Rostova",
+    "status": "Sent to QC",
+    "notes": "Praline enrobed and ready for quality checks.",
+    "recipe": [
+      { "materialId": "MAT-008", "name": "Roasted Piedmont Hazelnuts", "amount": 70, "unit": "kg" },
+      { "materialId": "MAT-004", "name": "Deodorized Cocoa Butter", "amount": 40, "unit": "kg" },
+      { "materialId": "MAT-005", "name": "Fine Caster Cane Sugar", "amount": 60, "unit": "kg" },
+      { "materialId": "MAT-001", "name": "Raw Cocoa Beans (Ecuador)", "amount": 30, "unit": "kg" }
+    ]
+  }
+]

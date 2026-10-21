@@ -1,0 +1,42 @@
+[
+  {
+    "id": "NOTIF-01",
+    "timestamp": "2026-09-04 09:20",
+    "type": "warning",
+    "targetRole": "All",
+    "message": "Raw Organic Cashews (MAT-010) is Out of Stock (0 kg). Pending Restock RST-0901 required.",
+    "read": false
+  },
+  {
+    "id": "NOTIF-02",
+    "timestamp": "2026-09-04 09:10",
+    "type": "info",
+    "targetRole": "Quality Control Manager",
+    "message": "Batch CH-BATCH-003 (Roasted Hazelnut Crunch) is completed and ready for QC inspection.",
+    "read": false
+  },
+  {
+    "id": "NOTIF-03",
+    "timestamp": "2026-09-04 08:45",
+    "type": "danger",
+    "targetRole": "Production Manager",
+    "message": "Batch CH-BATCH-002 was rejected by QC due to Texture issue (gritty particle fineness).",
+    "read": true
+  },
+  {
+    "id": "NOTIF-04",
+    "timestamp": "2026-09-03 17:00",
+    "type": "success",
+    "targetRole": "Customer",
+    "message": "Your order ORD-2026-1002 has been shipped with tracking number TRK-9921.",
+    "read": true
+  },
+  {
+    "id": "NOTIF-05",
+    "timestamp": "2026-09-03 16:45",
+    "type": "success",
+    "targetRole": "Inventory Manager",
+    "message": "Batch CH-BATCH-001 approved by QC. 496 units transferred to Finished Goods inventory.",
+    "read": true
+  }
+]
